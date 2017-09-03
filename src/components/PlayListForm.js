@@ -1,4 +1,3 @@
-
 import React, { Component } from "react";
 
 export default class PlayListForm extends Component {
@@ -63,7 +62,7 @@ export default class PlayListForm extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Add Listing to Database:</h1>
+        <h1>Add a Listing:</h1>
         <br />
 
         <form>

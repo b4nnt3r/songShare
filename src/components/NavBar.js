@@ -7,7 +7,7 @@ class NavBar extends Component {
       <div className="jumbotron">
         <h1>
           <img src={logo} className="App-logo" alt="logo" />
-          <strong>Play What!?</strong>
+          <strong>Enter a song!</strong>
           <img src={logo} className="App-logo" alt="logo" />
         </h1>
       </div>
