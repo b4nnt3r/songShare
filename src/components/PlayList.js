@@ -39,7 +39,7 @@ class PlayList extends Component {
           onClick={this.fetchData}
           value="update"
         />
-        <div className="play-list"style={{ height: 250, overflow: "scroll" }}>
+        <div className="play-list">
           <PlayListItem songRender={this.state} onClick={this.fetchData} />
         </div>
 

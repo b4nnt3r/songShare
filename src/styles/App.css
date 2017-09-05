@@ -19,8 +19,12 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .form-group {
@@ -28,5 +32,24 @@
 }
 
 .play-list {
-  border: 1px solid black;
+  background-color: black;
+  color: white;
+  height: 400px;
+  overflow: scroll;
+}
+
+.list-group-item {
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-block {
+  background-color: lightgrey;
+  color: black;
+  width: 400px;
+  padding: 5px;
 }
