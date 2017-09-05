@@ -33,15 +33,16 @@ class PlayList extends Component {
     return (
       <div>
         <h1>Playlists:</h1>
-        <div style={{ height: 250, overflow: "scroll" }}>
-          <PlayListItem songRender={this.state} onClick={this.fetchData} />
-        </div>
         <input
           type="button"
           className="btn btn-outline-primary"
           onClick={this.fetchData}
           value="update"
         />
+        <div className="play-list"style={{ height: 250, overflow: "scroll" }}>
+          <PlayListItem songRender={this.state} onClick={this.fetchData} />
+        </div>
+
       </div>
     );
   }
