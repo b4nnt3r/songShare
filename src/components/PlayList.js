@@ -33,13 +33,7 @@ class PlayList extends Component {
     return (
       <div>
         <h1>Playlists:</h1>
-        <br />
-        <div
-          style={{
-            height: 250,
-            overflow: "scroll"
-          }}
-        >
+        <div style={{ height: 250, overflow: "scroll" }}>
           <PlayListItem songRender={this.state} onClick={this.fetchData} />
         </div>
         <input
